@@ -1,0 +1,77 @@
+body {
+  color: #8f8074;
+  background-color: #DED0B6;
+  background-image: url("/images/bg.PNG");
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  color: #B2A59B;
+  font-weight: 600;
+  font-size: 50px;
+  text-shadow: -5px 0 #607274, 0 1px #607274, 1px 0 #607274, 0 -1px #607274;
+}
+
+h2 {
+color: #B2A59B;
+font-weight: 600;
+font-size: 35px;
+text-shadow: -1px 0 #607274, 0 2px #607274, 2px 0 #607274, 0 -1px #607274;
+}
+
+p {
+  font-weight: 200;
+  font-size: larger;
+  text-align: justify;
+}
+
+a {
+  color: #607274;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#ffffff;
+}
+
+#leader {
+  border-radius: 50%;
+  opacity: 0.7;
+  width: 15%;
+  box-shadow: 10px 5px 1px #ffffff;
+}
+
+.card {
+  background: rgb(245, 238, 226);
+  padding: 40px;
+  border: 20px solid #ffffff;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.container {
+  width: 75%;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 50px;
+}
+
+.btn-blue {
+  background-color: #607274;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
